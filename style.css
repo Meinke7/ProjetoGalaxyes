@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: var(--platform-aliases-background, #121214);
+
+  padding: 72px 104px;
+
+  display: grid;
+  justify-content: center;
+
+  
+  
+  
+}
+
+header {
+  
+
+}
+
+header h1 {
+  color: #02799d;
+
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 73px;
+  
+}
+
+header p {
+  color: #e1e1e6;
+
+  font-size: 32px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+
+  margin-top: 8px;
+}
+
+main {
+  margin-top: 62px;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+
+  
+
+  column-gap: 60px;
+  row-gap: 48px;
+
+  
+}
+
+.card {
+  border-radius: 8px;
+  border: 2px solid #323238;
+  background: #202024;
+  overflow: hidden;
+
+  
+}
+
+.card h2 {
+
+  color: #E1E1E6;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  font-style: normal;
+
+  padding: 24px 32px 0;
+ 
+  
+
+}
+ 
+.card p {
+  color: #C4C4CC;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+
+  padding: 24px 32px 32px;
+ 
+ 
+
+}
